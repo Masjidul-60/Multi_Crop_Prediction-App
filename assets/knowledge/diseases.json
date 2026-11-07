@@ -1,0 +1,594 @@
+{
+  "rice/blast": {
+    "crop": "rice",
+    "disease": "blast",
+    "crop_name_bn": "ধান",
+    "crop_name_en": "Rice",
+    "disease_name_bn": "ব্লাস্ট রোগ",
+    "disease_name_en": "Blast Disease",
+    "description_bn": "পাতায় মাকু আকৃতির দাগ সৃষ্টি হয় যার কেন্দ্র ছাই রঙের এবং কিনারা বাদামী।",
+    "description_en": "Produces spindle-shaped lesions on leaves with grayish centers and brown margins.",
+    "symptoms_bn": [
+      "পাতায় দুই প্রান্ত চোখা উপবৃত্তাকার দাগ",
+      "দাগের মধ্যভাগ ধূসর বা সাদাটে হওয়া",
+      "তীব্র আক্রমণে পাতা শুকিয়ে খড়ের মতো হওয়া"
+    ],
+    "symptoms_en": [
+      "Diamond or spindle-shaped lesions on foliage",
+      "Gray or whitish central spots with dark borders",
+      "Leaves dry out and display scorched appearance in severe cases"
+    ],
+    "what_to_do_bn": [
+      "জমি আগাছামুক্ত ও পরিষ্কার রাখুন",
+      "সুষম মাত্রায় পটাশ সার ব্যবহার করুন এবং অতিরিক্ত ইউরিয়া পরিহার করুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Keep field bunds clean and destroy crop residues",
+      "Balance potassium nutrition and avoid excessive nitrogen",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "rice/brown_spot": {
+    "crop": "rice",
+    "disease": "brown_spot",
+    "crop_name_bn": "ধান",
+    "crop_name_en": "Rice",
+    "disease_name_bn": "বাদামী দাগ রোগ",
+    "disease_name_en": "Brown Spot",
+    "description_bn": "পাতায় ছোট ছোট গোল বা ডিম্বাকার গাঢ় বাদামী রঙের দাগ দেখা যায়।",
+    "description_en": "Causes small, oval to circular dark-brown spots uniformly distributed over the leaf blade.",
+    "symptoms_bn": [
+      "পাতায় ছোট তিলের দানার মতো বাদামী দাগ",
+      "দাগ বড় হয়ে হলুদাভ বলয় তৈরি হওয়া",
+      "পাতার স্বাভাবিক সবুজ বর্ণ নষ্ট হওয়া"
+    ],
+    "symptoms_en": [
+      "Small oval dark-brown spots on leaf surface",
+      "Yellow halo surrounding mature spots",
+      "Loss of green leaf surface affecting grain filling"
+    ],
+    "what_to_do_bn": [
+      "মাটির উর্বরতা পরীক্ষা করে পরিমিত পুষ্টি উপাদান দিন",
+      "সুস্থ ও প্রত্যয়িত বীজ ব্যবহার নিশ্চিত করুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Maintain adequate soil fertility and micronutrient balance",
+      "Ensure use of clean, certified seeds",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "rice/bacterial_leaf_blight": {
+    "crop": "rice",
+    "disease": "bacterial_leaf_blight",
+    "crop_name_bn": "ধান",
+    "crop_name_en": "Rice",
+    "disease_name_bn": "ব্যাকটেরিয়াল পাতা পোড়া রোগ",
+    "disease_name_en": "Bacterial Leaf Blight",
+    "description_bn": "পাতার ডগা বা কিনারা থেকে জলছাপ দাগ শুরু হয়ে নিচের দিকে বাড়ে এবং পাতা শুকিয়ে যায়।",
+    "description_en": "Infection starts at leaf tips or edges, producing wavy water-soaked lesions that turn straw-yellow.",
+    "symptoms_bn": [
+      "পাতার কিনারায় ঢেউখেলানো হলুদাভ সাদা রেখা",
+      "ভোরের দিকে আক্রান্ত অংশে হলুদ ফোঁটা ফোঁটা আঠালো পদার্থ দেখা যাওয়া",
+      "আক্রান্ত পাতা দ্রুত শুকিয়ে বিবর্ণ হওয়া"
+    ],
+    "symptoms_en": [
+      "Wavy yellowish margins moving downward from leaf tips",
+      "Bacterial ooze droplets visible in early morning dew",
+      "Rapid desiccation and bleaching of foliage"
+    ],
+    "what_to_do_bn": [
+      "জমিতে জমে থাকা পানি নিষ্কাশন করে নতুন পানি দিন",
+      "ইউরিয়া সারের অতিরিক্ত উপরিপ্রয়োগ স্থগিত রাখুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Drain standing water from the field if possible",
+      "Pause split applications of nitrogenous fertilizer",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "rice/tungro": {
+    "crop": "rice",
+    "disease": "tungro",
+    "crop_name_bn": "ধান",
+    "crop_name_en": "Rice",
+    "disease_name_bn": "টুংরো রোগ",
+    "disease_name_en": "Tungro Virus",
+    "description_bn": "গাছ খাটো হয়ে যায় এবং পাতার রঙ হালকা হলুদ থেকে কমলা বর্ণ ধারণ করে।",
+    "description_en": "Viral stunting where leaves turn bright yellow-orange beginning from older leaves.",
+    "symptoms_bn": [
+      "গাছের বৃদ্ধি থমকে যাওয়া বা বেঁটে হয়ে যাওয়া",
+      "গাছের পাতার রঙ উজ্জ্বল কমলা বা হলুদ হওয়া",
+      "কুশির সংখ্যা স্বাভাবিকের চেয়ে উল্লেখযোগ্যভাবে কমে যাওয়া"
+    ],
+    "symptoms_en": [
+      "Stunted growth and poor tillering",
+      "Yellowing or orange discoloration starting from older leaf tips",
+      "Delayed flowering and partially filled panicles"
+    ],
+    "what_to_do_bn": [
+      "সবুজ পাতাফড়িংয়ের উপস্থিতি পর্যবেক্ষণ ও নিয়ন্ত্রণ ব্যবস্থা নিন",
+      "তীব্র আক্রান্ত চারা জমি থেকে সতর্কতার সাথে তুলে ফেলুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Monitor green leafhopper vector populations",
+      "Rogue out severely affected diseased clumps",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "rice/healthy": {
+    "crop": "rice",
+    "disease": "healthy",
+    "crop_name_bn": "ধান",
+    "crop_name_en": "Rice",
+    "disease_name_bn": "সুস্থ পাতা",
+    "disease_name_en": "Healthy Leaf",
+    "description_bn": "পাতায় কোনো রোগের দাগ বা ক্ষতিকর লক্ষণের উপস্থিতি নেই। স্বাভাবিক ও সতেজ।",
+    "description_en": "No visible signs of lesions, wilting, or fungal sporulation. Foliage is vigorous and healthy.",
+    "symptoms_bn": [
+      "স্বাভাবিক গাঢ় সবুজ বা সতেজ বর্ণ",
+      "কোনো ক্ষত, ছত্রাক বা পোকার আক্রমণ নেই",
+      "সুষম গড়ন ও স্বাভাবিক পাতার বৃদ্ধি"
+    ],
+    "symptoms_en": [
+      "Uniform vibrant green coloration",
+      "Absence of necrotic lesions or chlorosis",
+      "Normal blade turgor and healthy physiological growth"
+    ],
+    "what_to_do_bn": [
+      "নিয়মিত পরিচর্যা ও স্বাভাবিক সেচ বজায় রাখুন",
+      "মাঝেমধ্যে পর্যবেক্ষণ চালিয়ে যান",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Continue standard balanced irrigation and crop monitoring",
+      "Scout periodically for early symptoms during humid weather",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "potato/early_blight": {
+    "crop": "potato",
+    "disease": "early_blight",
+    "crop_name_bn": "আলু",
+    "crop_name_en": "Potato",
+    "disease_name_bn": "আগেভাগে পাতা ধসা রোগ",
+    "disease_name_en": "Early Blight",
+    "description_bn": "পাতায় চক্রাকার বলয়যুক্ত গাঢ় বাদামী বা কালো দাগ দেখা যায় যা দেখতে টার্গেটের মতো।",
+    "description_en": "Dark brown circular spots on older leaves displaying concentric rings (target-board effect).",
+    "symptoms_bn": [
+      "পাতায় টার্গেট বোর্ডের মতো চক্রাকার বাদামী দাগ",
+      "দাগের চারপাশে হলুদাভ আভা",
+      "নিচের পাতাগুলো আগে ক্ষতিগ্রস্ত হওয়া ও ঝরে পড়া"
+    ],
+    "symptoms_en": [
+      "Concentric rings within dark brown spots on foliage",
+      "Chlorotic yellowing around leaf lesions",
+      "Premature senescence of lower canopy leaves"
+    ],
+    "what_to_do_bn": [
+      "ফসল পর্যায়ক্রম (ক্রপ রোটেশন) মেনে চলুন",
+      "গাছের গোড়ায় পানি দেওয়ার সময় পাতায় পানি ছিটানো থেকে বিরত থাকুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Practice crop rotation with non-solanaceous crops",
+      "Avoid overhead sprinkler irrigation to minimize canopy wetness",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "potato/late_blight": {
+    "crop": "potato",
+    "disease": "late_blight",
+    "crop_name_bn": "আলু",
+    "crop_name_en": "Potato",
+    "disease_name_bn": "দেরিতে পাতা ধসা রোগ (নাবী ধসা)",
+    "disease_name_en": "Late Blight",
+    "description_bn": "আর্দ্র আবহাওয়ায় পাতায় দ্রুত ছড়িয়ে পড়া ভেজা জলছাপ দাগ এবং নিচে সাদাটে ছত্রাকের স্তর।",
+    "description_en": "Destructive water-soaked lesions that turn purplish-brown rapidly under cool moist conditions.",
+    "symptoms_bn": [
+      "পাতার ডগা ও কিনারায় ভেজা জলছাপের মতো দ্রুত বড় হওয়া দাগ",
+      "পাতার নিচে আর্দ্র অবস্থায় সাদাটে গুঁড়া বা ছত্রাকের জাল",
+      "দুর্গন্ধযুক্ত দ্রুত পচন ও গাছ ঢলে পড়া"
+    ],
+    "symptoms_en": [
+      "Rapidly spreading irregular water-soaked lesions",
+      "White downy fungal growth on lower leaf surfaces under high humidity",
+      "Foul-smelling decay and collapse of above-ground foliage"
+    ],
+    "what_to_do_bn": [
+      "আক্রান্ত গাছের অংশ দ্রুত অপসারণ করে নিরাপদ দূরত্বে নষ্ট করুন",
+      "কুয়াশাচ্ছন্ন ও ঠান্ডা আবহাওয়ায় মাঠ নিয়মিত নিবিড়ভাবে পর্যবেক্ষণ করুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Immediately eliminate and bury heavily infected plants",
+      "Increase vigilance during cool, foggy, and humid intervals",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "potato/healthy": {
+    "crop": "potato",
+    "disease": "healthy",
+    "crop_name_bn": "আলু",
+    "crop_name_en": "Potato",
+    "disease_name_bn": "সুস্থ পাতা",
+    "disease_name_en": "Healthy Leaf",
+    "description_bn": "আলু গাছের পাতা সম্পূর্ণ সতেজ, নিখুঁত এবং রোগহীন।",
+    "description_en": "Vigorous potato foliage with no blight spots, mottling, or curling.",
+    "symptoms_bn": [
+      "সতেজ সবুজ রঙের পত্রবিন্যাস",
+      "কোনো বাদামী বা জলছাপ দাগ নেই",
+      "সুস্থ ও স্বাভাবিক পাতার বৃদ্ধি"
+    ],
+    "symptoms_en": [
+      "Healthy turgid foliage with deep green coloration",
+      "No necrotic margins or downy mildew signs",
+      "Robust vegetative growth"
+    ],
+    "what_to_do_bn": [
+      "পরিমিত সেচ ও নিড়ানি প্রদান অব্যাহত রাখুন",
+      "গাছের গোড়ায় মাটি তুলে দিন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Maintain appropriate earthing-up and furrow irrigation",
+      "Scout leaves periodically to spot any seasonal blight early",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "tomato/early_blight": {
+    "crop": "tomato",
+    "disease": "early_blight",
+    "crop_name_bn": "টমেটো",
+    "crop_name_en": "Tomato",
+    "disease_name_bn": "আগেভাগে পাতা ধসা রোগ",
+    "disease_name_en": "Early Blight",
+    "description_bn": "পাতায় বাদামী চক্রাকার দাগ তৈরি করে যা পর্যায়ক্রমে পুরো পাতায় ছড়িয়ে পড়ে।",
+    "description_en": "Fungal infection creating target-like spots on mature leaves, leading to defoliation.",
+    "symptoms_bn": [
+      "নিচের পুরোনো পাতায় গোল বাদামী দাগ",
+      "দাগের ভেতরের দিকে ঘন ঘন বৃত্তাকার রেখা",
+      "পাতা হলুদ হয়ে নিচে ঝরে পড়া"
+    ],
+    "symptoms_en": [
+      "Concentric circular brown spots on mature foliage",
+      "Yellowing surrounding leaf lesions",
+      "Premature drop of infected lower leaves"
+    ],
+    "what_to_do_bn": [
+      "গাছের নিচের শুকনো ও দাগযুক্ত পাতা ছেঁটে দিন",
+      "মাটিতে মালচিং ব্যবহার করে মাটির আর্দ্রতা রক্ষা ও ছিটকে আসা কাদা রোধ করুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Prune lowest leaves close to the soil line to avoid soil splash",
+      "Apply organic mulch to soil surface around plants",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "tomato/late_blight": {
+    "crop": "tomato",
+    "disease": "late_blight",
+    "crop_name_bn": "টমেটো",
+    "crop_name_en": "Tomato",
+    "disease_name_bn": "দেরিতে পাতা ধসা রোগ",
+    "disease_name_en": "Late Blight",
+    "description_bn": "আর্দ্র ঠান্ডা আবহাওয়ায় পাতায় বড় ভেজা কালচে দাগ এবং পাতার নিচে সাদাটে ছত্রাক।",
+    "description_en": "Water-soaked dark lesions spreading rapidly across foliage and stems in cool, moist conditions.",
+    "symptoms_bn": [
+      "পাতায় ভেজা কালচে-বাদামী অস্পষ্ট দাগ",
+      "পাতার নিচের পৃষ্ঠে সাদাটে আস্তরণ",
+      "গাছের কাণ্ডে বাদামী রঙের দাগ ও পচন"
+    ],
+    "symptoms_en": [
+      "Pale green to dark water-soaked patches on leaf tips",
+      "Delicate white fungal mold on leaf undersides during humid hours",
+      "Stem lesions turning brown and brittle"
+    ],
+    "what_to_do_bn": [
+      "গাছে পর্যাপ্ত আলো-বাতাস চলাচলের জন্য দূরবর্তী দূরত্ব বজায় রাখুন",
+      "আক্রান্ত অংশ চিহ্নিত করে সাথে সাথে ধ্বংস করুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Ensure adequate vine spacing and staking for canopy ventilation",
+      "Promptly sanitize infected plants away from field",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "tomato/leaf_mold": {
+    "crop": "tomato",
+    "disease": "leaf_mold",
+    "crop_name_bn": "টমেটো",
+    "crop_name_en": "Tomato",
+    "disease_name_bn": "লিফ মোল্ড (পাতার ছত্রাক)",
+    "disease_name_en": "Leaf Mold",
+    "description_bn": "পাতার উপরিভাগে হালকা হলুদ দাগ এবং নিচের পিঠে জলপাই-বাদামী ভেলভেটের মতো ছত্রাক।",
+    "description_en": "Pale green or yellow patches on upper leaf surface with olive-brown velvety mold underneath.",
+    "symptoms_bn": [
+      "পাতার ওপর ফিকে হলুদ দাগ",
+      "পাতার নিচে মখমলের মতো বাদামী বা জলপাই রঙের গুঁড়া",
+      "পাতা কুঁকড়ে বাদামী হয়ে শুকিয়ে যাওয়া"
+    ],
+    "symptoms_en": [
+      "Pale yellow spots on top of leaf blade",
+      "Velvety olive to brown mold colony on underside",
+      "Leaves curl, turn brown, and drop prematurely"
+    ],
+    "what_to_do_bn": [
+      "গ্রিনহাউস বা বাগানে বাতাস চলাচলের ব্যবস্থা জোরদার করুন",
+      "অতিরিক্ত আর্দ্রতা ও অতিরিক্ত গা ঘেঁষাঘেঁষি রোপণ পরিহার করুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Increase air circulation and reduce high ambient relative humidity",
+      "Avoid overhead watering late in the afternoon",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "tomato/yellow_leaf_curl": {
+    "crop": "tomato",
+    "disease": "yellow_leaf_curl",
+    "crop_name_bn": "টমেটো",
+    "crop_name_en": "Tomato",
+    "disease_name_bn": "পাতা কোঁকড়ানো ভাইরাস",
+    "disease_name_en": "Yellow Leaf Curl Virus",
+    "description_bn": "পাতা ছোট ও চামচের মতো ওপরের দিকে কুঁকড়ে যায় এবং গাছ খর্বাকৃতির হয়ে পড়ে।",
+    "description_en": "Viral stunting where leaflets cup upward, exhibit chlorotic margins, and reduce in size.",
+    "symptoms_bn": [
+      "পাতাগুলো ওপরের দিকে বাটির মতো কুঁকড়ে যাওয়া",
+      "পাতার কিনারায় হলুদ আভা দেখা দেওয়া",
+      "গাছের বৃদ্ধি থমকে ফুল ও ফল ধারণ মারাত্মকভাবে কমে যাওয়া"
+    ],
+    "symptoms_en": [
+      "Pronounced upward curling and cupping of young leaves",
+      "Interveinal and marginal yellowing",
+      "Bushy stunted growth and severe fruit drop"
+    ],
+    "what_to_do_bn": [
+      "সাদা মাছি (ভেক্টর) নিয়ন্ত্রণে হলুদ আঠালো ফাঁদ ব্যবহার করুন",
+      "আক্রান্ত চারা সতর্কতার সাথে উপড়ে নষ্ট করুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Use yellow sticky traps to track and suppress whitefly vector populations",
+      "Remove and discard severely infected seedling plants",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "tomato/healthy": {
+    "crop": "tomato",
+    "disease": "healthy",
+    "crop_name_bn": "টমেটো",
+    "crop_name_en": "Tomato",
+    "disease_name_bn": "সুস্থ পাতা",
+    "disease_name_en": "Healthy Leaf",
+    "description_bn": "টমেটো পাতা সতেজ ও গাঢ় সবুজ, কোনো সংক্রমণ বা পোকার আক্রমণ নেই।",
+    "description_en": "Leaves exhibit healthy color, normal architecture, and no viral or fungal signs.",
+    "symptoms_bn": [
+      "মসৃণ ও সতেজ সবুজ পাতা",
+      "কোনো কুঁকড়ানো বা দাগের লক্ষণ নেই",
+      "স্বাভাবিক ফুল ও পাতার বৃদ্ধি"
+    ],
+    "symptoms_en": [
+      "Uniform deep green foliage",
+      "Absence of cupping, spotting, or viral mottling",
+      "Optimal vegetative vigor"
+    ],
+    "what_to_do_bn": [
+      "সুষম সেচ ও পরিমিত পরিচর্যা অব্যাহত রাখুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Continue balanced watering and regular crop scouting",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "maize/common_rust": {
+    "crop": "maize",
+    "disease": "common_rust",
+    "crop_name_bn": "ভুট্টা",
+    "crop_name_en": "Maize / Corn",
+    "disease_name_bn": "সাধারণ মরিচা রোগ",
+    "disease_name_en": "Common Rust",
+    "description_bn": "পাতার উভয় পাশে বাদামী বা তামাটে রঙের ছোট ছোট ফোস্কার মতো গুঁড়া দানা দেখা যায়।",
+    "description_en": "Small, powdery, cinnamon-brown pustules scattered across both leaf surfaces.",
+    "symptoms_bn": [
+      "পাতায় উঁচু তামাটে বা ইটের রঙের দানাদার ফোস্কা",
+      "আঙ্গুল দিয়ে ঘষলে লালচে-বাদামী গুঁড়া লাগা",
+      "পাতা শুকিয়ে ঝরে যাওয়া"
+    ],
+    "symptoms_en": [
+      "Elevated reddish-brown powdery pustules on foliage",
+      "Spores easily rub off on fingers as brownish dust",
+      "Severe infections result in premature leaf chlorosis"
+    ],
+    "what_to_do_bn": [
+      "রোগ প্রতিরোধী ভুট্টার জাত নির্বাচন করুন",
+      "জমির জল নিষ্কাশন ও বায়ু চলাচল সুনিশ্চিত করুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Select resistant hybrid varieties for planting",
+      "Ensure proper row spacing to reduce humidity buildup",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "maize/leaf_blight": {
+    "crop": "maize",
+    "disease": "leaf_blight",
+    "crop_name_bn": "ভুট্টা",
+    "crop_name_en": "Maize / Corn",
+    "disease_name_bn": "পাতা পোড়া রোগ",
+    "disease_name_en": "Northern Leaf Blight",
+    "description_bn": "পাতায় লম্বাটে সিগার বা নৌকার আকৃতির ধূসর-সবুজ বা বাদামী বড় দাগ সৃষ্টি হয়।",
+    "description_en": "Long elliptical cigar-shaped lesions on leaves that expand and coalesce.",
+    "symptoms_bn": [
+      "পাতার শিরার সমান্তরালে লম্বাটে ধূসর-বাদামী দাগ",
+      "দাগগুলো একীভূত হয়ে পুরো পাতা পুড়ে যাওয়ার রূপ নেওয়া",
+      "সালোকসংশ্লেষণ মারাত্মকভাবে ব্যাহত হওয়া"
+    ],
+    "symptoms_en": [
+      "Long cigar-shaped grayish-tan lesions along leaf veins",
+      "Lesions merge causing extensive foliage blighting",
+      "Noticeable reduction in photosynthetic green leaf area"
+    ],
+    "what_to_do_bn": [
+      "ফসল কাটার পর নাড়া ও অবশিষ্টাংশ পুড়িয়ে বা মাটিতে মিশিয়ে দিন",
+      "অন্য ফসলের সাথে আবর্তন করুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Deeply incorporate crop stubble into soil after harvest",
+      "Practice multi-season crop rotation",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "maize/healthy": {
+    "crop": "maize",
+    "disease": "healthy",
+    "crop_name_bn": "ভুট্টা",
+    "crop_name_en": "Maize / Corn",
+    "disease_name_bn": "সুস্থ পাতা",
+    "disease_name_en": "Healthy Leaf",
+    "description_bn": "ভুট্টা গাছের পাতা রোগ ও ক্ষতমুক্ত, সুঠাম ও সতেজ সবুজ।",
+    "description_en": "Broad, robust corn leaves without pustules, stripes, or necrotic patches.",
+    "symptoms_bn": [
+      "বিস্তৃত ও সুদৃঢ় গাঢ় সবুজ পত্রফলক",
+      "কোনো মরিচা দাগ বা শুকিয়ে যাওয়ার লক্ষণ নেই",
+      "সবল বৃদ্ধি"
+    ],
+    "symptoms_en": [
+      "Broad, intact leaf lamina with vibrant green color",
+      "Absence of rust pustules or elongated lesions",
+      "Robust vegetative canopy"
+    ],
+    "what_to_do_bn": [
+      "পর্যাপ্ত সেচ ও পরিমিত সার প্রয়োগ অব্যাহত রাখুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Maintain consistent soil moisture during critical vegetative stages",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "wheat/yellow_rust": {
+    "crop": "wheat",
+    "disease": "yellow_rust",
+    "crop_name_bn": "গম",
+    "crop_name_en": "Wheat",
+    "disease_name_bn": "হলুদ মরিচা রোগ (স্ট্রাইপ রাস্ট)",
+    "disease_name_en": "Yellow Rust (Stripe Rust)",
+    "description_bn": "পাতায় সমান্তরাল রেখা আকারে হলুদ গুঁড়া দানার স্ট্রাইপ বা ডোরাকাটা দাগ দেখা যায়।",
+    "description_en": "Bright yellow pustules arranged in characteristic stripes along leaf veins.",
+    "symptoms_bn": [
+      "পাতার শিরা বরাবর হলুদ গুঁড়ার লম্বাটে রেখা",
+      "আক্রান্ত পাতা দ্রুত শুকিয়ে খড়ের মতো হওয়া",
+      "দানা অপুষ্ট ও ওজনে হালকা হওয়া"
+    ],
+    "symptoms_en": [
+      "Linear stripes of yellow pustules running parallel to leaf veins",
+      "Affected leaves dry prematurely",
+      "Shriveled grains and reduced spike size"
+    ],
+    "what_to_do_bn": [
+      "অনুমোদিত মরিচা সহনশীল গমের জাত রোপণ করুন",
+      "শীতের আর্দ্র আবহাওয়ায় নিয়মিত মাঠ পরিদর্শন করুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Sow certified stripe-rust resistant wheat varieties",
+      "Regularly scout fields during cool moist winter months",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "wheat/healthy": {
+    "crop": "wheat",
+    "disease": "healthy",
+    "crop_name_bn": "গম",
+    "crop_name_en": "Wheat",
+    "disease_name_bn": "সুস্থ পাতা",
+    "disease_name_en": "Healthy Leaf",
+    "description_bn": "গম গাছের পাতা স্বাভাবিক, কোনো মরিচা বা বাদামী দাগ নেই।",
+    "description_en": "Healthy wheat foliage with uniform color and clean blade margins.",
+    "symptoms_bn": [
+      "স্বাভাবিক সবুজ রঙের সমান্তরাল শিরাযুক্ত পাতা",
+      "কোনো হলুদ বা বাদামী গুঁড়া দাগ অনুপস্থিত",
+      "সতেজ ও টানটান পাতা"
+    ],
+    "symptoms_en": [
+      "Vibrant green blades without chlorotic striping",
+      "No fungal spore pustules present",
+      "Vigorous tiller growth"
+    ],
+    "what_to_do_bn": [
+      "সময়মতো সেচ ও পুষ্টি নিশ্চিত করুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Maintain planned irrigation schedule at crown root initiation",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "chili/leaf_curl": {
+    "crop": "chili",
+    "disease": "leaf_curl",
+    "crop_name_bn": "মরিচ",
+    "crop_name_en": "Chili",
+    "disease_name_bn": "পাতা কোঁকড়ানো রোগ",
+    "disease_name_en": "Chili Leaf Curl",
+    "description_bn": "পাতা ওপরের দিকে কোঁকড়ায়, শিরাগুলো মোটা হয় এবং গাছ খর্বাকৃতি রূপ নেয়।",
+    "description_en": "Upward curling and thickening of chili leaves accompanied by severe stunting.",
+    "symptoms_bn": [
+      "নতুন পাতাগুলো নৌকার মতো ওপরের দিকে কুঁকড়ে যাওয়া",
+      "পাতার শিরাগুলো অস্বাভাবিক মোটা ও স্পষ্ট হওয়া",
+      "গাছ আকারে ছোট ও ঝোপালো হয়ে যাওয়া"
+    ],
+    "symptoms_en": [
+      "Upward curling, puckering, and thickening of leaves",
+      "Thickened veins with reduced leaf lamina size",
+      "Severely stunted and bushy plant appearance"
+    ],
+    "what_to_do_bn": [
+      "সাদা মাছি ও থ্রিপস নিয়ন্ত্রণে আঠালো ফাঁদ এবং পরিচ্ছন্নতা বজায় রাখুন",
+      "আক্রান্ত গাছ শুরুতে চিহ্নিত করে তুলে নিরাপদ স্থানে ফেলুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Install yellow and blue sticky traps to monitor insect vectors",
+      "Uproot and safely dispose of severely infected early plants",
+      "TODO: verify with an agronomist"
+    ]
+  },
+  "chili/healthy": {
+    "crop": "chili",
+    "disease": "healthy",
+    "crop_name_bn": "মরিচ",
+    "crop_name_en": "Chili",
+    "disease_name_bn": "সুস্থ পাতা",
+    "disease_name_en": "Healthy Leaf",
+    "description_bn": "মরিচ পাতা উজ্জ্বল সবুজ, টানটান ও কুঁকড়াহীন।",
+    "description_en": "Smooth, vibrant chili foliage with no curling or discoloration.",
+    "symptoms_bn": [
+      "মসৃণ ও সমান পত্রফলক",
+      "কোনো কুঁচকানো বা দাগযুক্ত অংশ নেই",
+      "স্বাভাবিক ফুল ও কুঁড়ির বিকাশ"
+    ],
+    "symptoms_en": [
+      "Smooth, flat, vibrant green leaves",
+      "No mosaic patterns or vector injury",
+      "Normal flowering and budding progress"
+    ],
+    "what_to_do_bn": [
+      "নিয়মিত আর্দ্রতা ও সুষম সার সরবরাহ করুন",
+      "TODO: verify with an agronomist"
+    ],
+    "what_to_do_en": [
+      "Maintain consistent moisture avoid waterlogging in root zone",
+      "TODO: verify with an agronomist"
+    ]
+  }
+}

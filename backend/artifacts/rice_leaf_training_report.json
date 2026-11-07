@@ -1,0 +1,240 @@
+{
+  "dataset": "RiceLeafBD v1 (CC BY 4.0)",
+  "doi": "10.17632/sjkptpgv79.1",
+  "archive_reported_image_count": 2545,
+  "archive_extracted_image_count": 3150,
+  "unique_images_used": 3147,
+  "exact_duplicates_removed": 3,
+  "observed_class_counts": {
+    "blast": 720,
+    "narrow_brown_spot": 476,
+    "healthy": 834,
+    "sheath_blight": 623,
+    "tungro": 494
+  },
+  "split_class_counts": {
+    "train": {
+      "blast": 464,
+      "healthy": 583,
+      "sheath_blight": 436,
+      "tungro": 347,
+      "narrow_brown_spot": 326
+    },
+    "val": {
+      "blast": 132,
+      "sheath_blight": 94,
+      "tungro": 74,
+      "narrow_brown_spot": 82,
+      "healthy": 127
+    },
+    "test": {
+      "blast": 124,
+      "sheath_blight": 93,
+      "tungro": 73,
+      "narrow_brown_spot": 68,
+      "healthy": 124
+    }
+  },
+  "label_to_index": {
+    "blast": 0,
+    "healthy": 1,
+    "narrow_brown_spot": 2,
+    "sheath_blight": 3,
+    "tungro": 4
+  },
+  "capture_grouping": "same 5-minute filename timestamp bucket",
+  "seed": 42,
+  "best_epoch": 7,
+  "best_val_macro_f1": 0.9565201997756958,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5890670419084894,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9194499254226685,
+        "macro_f1": 0.9235594868659973
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.2177550638101456,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9528487324714661,
+        "macro_f1": 0.9528822898864746
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.15394926754658841,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9469547867774963,
+        "macro_f1": 0.9511557817459106
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.13324551711415963,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9312376976013184,
+        "macro_f1": 0.9356926083564758
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.10012934827524392,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9469547867774963,
+        "macro_f1": 0.9497367739677429
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.07625881323689093,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9410609006881714,
+        "macro_f1": 0.9440345764160156
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.06626614533170495,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9548133611679077,
+        "macro_f1": 0.9565201997756958
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.04228005342298133,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9508841037750244,
+        "macro_f1": 0.9540630578994751
+      }
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.0322707716161184,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9548133611679077,
+        "macro_f1": 0.955651581287384
+      }
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.028661043975321203,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9469547867774963,
+        "macro_f1": 0.9480166435241699
+      }
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.02051845996952419,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9410609006881714,
+        "macro_f1": 0.9429703950881958
+      }
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.014011367806750224,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9390962719917297,
+        "macro_f1": 0.9414396286010742
+      }
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.013955304093233298,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9351670145988464,
+        "macro_f1": 0.9390689730644226
+      }
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.018028947575583532,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9351670145988464,
+        "macro_f1": 0.9380334615707397
+      }
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.008287846876233415,
+      "val": {
+        "count": 509,
+        "accuracy": 0.9410609006881714,
+        "macro_f1": 0.9429703950881958
+      }
+    }
+  ],
+  "test": {
+    "count": 482,
+    "accuracy": 0.8962655663490295,
+    "macro_f1": 0.8939374685287476,
+    "confusion_matrix": [
+      [
+        117,
+        0,
+        3,
+        4,
+        0
+      ],
+      [
+        4,
+        104,
+        16,
+        0,
+        0
+      ],
+      [
+        0,
+        8,
+        60,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        13,
+        79,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        72
+      ]
+    ]
+  },
+  "test_confusion_matrix_labels": [
+    "blast",
+    "healthy",
+    "narrow_brown_spot",
+    "sheath_blight",
+    "tungro"
+  ],
+  "backbone_source": "best.pt e3_full epoch 8 EfficientNet-B0 backbone",
+  "notes": [
+    "Archive file counts do not match the included PDF counts; actual extracted counts are reported separately.",
+    "Test split groups nearby capture times, but still comes from the same dataset and is not an independent field trial."
+  ]
+}
